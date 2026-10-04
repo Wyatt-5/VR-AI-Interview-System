@@ -1,0 +1,142 @@
+VR智能AI面试官项目交接说明
+
+一、Unity版本
+
+Unity 2022.3.53f1
+
+请优先使用完全相同版本打开项目。
+
+二、Unity项目
+
+项目目录：
+
+01_Unity项目
+
+必须保留：
+
+Assets
+Packages
+ProjectSettings
+
+第一次打开项目时Unity会重新生成Library，
+需要等待资源重新导入。
+
+三、Python后端
+
+目录：
+
+02_Python后端
+
+Python版本：
+
+目前Python 3.10.11可正常使用。
+
+首次配置：
+
+python -m venv .venv
+
+.venv\Scripts\activate
+
+python -m pip install --upgrade pip
+
+python -m pip install -r requirements.txt
+
+启动：
+
+python -m uvicorn main:app --host 127.0.0.1 --port 8000
+
+检查：
+
+http://127.0.0.1:8000/health
+
+四、后端主要接口
+
+/health
+/next-question
+/score
+/speech-to-text
+/text-to-speech
+
+五、Unity主要脚本
+
+InterviewManager.cs
+负责：
+面试流程、在线AI、离线预设、问题切换、评分流程等。
+
+VoiceInterviewManager.cs
+负责：
+麦克风录音、岗位语音输入、回答语音输入、ASR上传。
+
+QuestionSpeechManager.cs
+负责：
+面试官TTS语音请求和播放。
+
+WavEncoder.cs
+负责：
+把Unity录音转换成WAV。
+
+六、当前主要功能
+
+1. 在线AI动态面试
+2. 离线预设面试
+3. 自动回退模式
+4. DeepSeek动态提问
+5. AI根据上一轮回答进行追问
+6. 麦克风语音识别
+7. 面试官TTS朗读
+8. 详细AI评分
+9. 表现亮点和改进建议
+10. 本地备用评分
+11. 重新模拟面试
+12. VR交互场景
+
+七、PC本地测试
+
+Unity和Python后端运行在同一台电脑时：
+
+Next Question：
+http://127.0.0.1:8000/next-question
+
+Score：
+http://127.0.0.1:8000/score
+
+TTS：
+http://127.0.0.1:8000/text-to-speech
+
+Voice Backend：
+http://127.0.0.1:8000
+
+八、VR一体机测试
+
+如果Unity程序直接运行在VR一体机中，
+127.0.0.1不能使用。
+
+电脑启动后端：
+
+python -m uvicorn main:app --host 0.0.0.0 --port 8000
+
+使用ipconfig查询电脑Wi-Fi IPv4。
+
+例如电脑IP：
+
+192.168.1.23
+
+则Unity地址改为：
+
+http://192.168.1.23:8000/next-question
+http://192.168.1.23:8000/score
+http://192.168.1.23:8000/text-to-speech
+http://192.168.1.23:8000
+
+电脑和VR必须在同一Wi-Fi。
+
+九、目前注意事项
+
+1. edge-tts需要联网，偶尔可能生成失败。
+2. DeepSeek需要联网。
+3. Whisper第一次运行可能需要下载small模型。
+4. 中文TMP动态字体偶尔出现黄色Importer警告，目前不影响主要功能。
+5. 不要随意删除任何.cs.meta文件。
+6. QuestionSpeechManager、InterviewManager等脚本出现Missing Script时，
+优先检查.meta和脚本编译错误。
+7. 当前正在继续完善VR真机中文键盘和语音修改体验。

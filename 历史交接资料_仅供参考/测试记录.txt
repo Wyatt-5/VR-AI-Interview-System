@@ -1,0 +1,20 @@
+1. TTS使用在线edge-tts，网络波动时可能朗读失败。
+
+2. ChineseDynamicFont SDF偶尔出现：
+Importer(NativeFormatImporter) generated inconsistent result
+目前属于TextMeshPro动态字体警告，
+不影响AI、ASR、评分或主要流程。
+
+3. VR系统中文键盘尚未完成最终真机适配。
+当前需求：
+语音识别结果填入TMP_InputField后，
+用户可通过VR系统键盘修改错误文字。
+
+4. VR一体机访问电脑后端时，
+不能使用127.0.0.1，
+必须使用电脑局域网IPv4。
+
+5. 首次Whisper识别可能下载模型，
+耗时较长。
+
+6. 当前TTS声音与失败切换策略仍属于后续可优化项。

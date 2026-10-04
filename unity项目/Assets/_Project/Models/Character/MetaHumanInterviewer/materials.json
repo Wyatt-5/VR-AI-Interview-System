@@ -1,0 +1,394 @@
+{
+  "materials": [
+    {
+      "name": "MI_Body_Baked",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Body_BC_Albedo.png",
+      "normalTexture": "Textures/T_Body_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Skin_Baked_LOD0",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Head_BC_Albedo.png",
+      "normalTexture": "Textures/T_Head_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Teeth_Baked",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Teeth_BC_Albedo.png",
+      "normalTexture": "Textures/T_Teeth_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "M_Hide",
+      "color": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "smoothness": 0.5,
+      "alpha": 0.0,
+      "hair": false,
+      "baseTexture": "",
+      "normalTexture": "",
+      "normalScale": 0.45
+    },
+    {
+      "name": "MI_EyeL_Baked",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.8499999940395355,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/MI_EyeL_Baked_Albedo.png",
+      "normalTexture": "",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_EyeR_Baked",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.8499999940395355,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/MI_EyeR_Baked_Albedo.png",
+      "normalTexture": "",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_EyeShell",
+      "color": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "smoothness": 0.5,
+      "alpha": 0.0,
+      "hair": false,
+      "baseTexture": "",
+      "normalTexture": "",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Eyelashes",
+      "color": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "smoothness": 0.5,
+      "alpha": 0.0,
+      "hair": false,
+      "baseTexture": "",
+      "normalTexture": "",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_LacrimalFluid",
+      "color": [
+        0.3499999940395355,
+        0.07999999821186066,
+        0.05000000074505806,
+        1.0
+      ],
+      "smoothness": 0.8199999928474426,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "",
+      "normalTexture": "",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Skin_Baked_LOD1",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Head_BC_Albedo.png",
+      "normalTexture": "Textures/T_Head_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Skin_Baked_LOD2",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Head_BC_Albedo.png",
+      "normalTexture": "Textures/T_Head_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_EyelashesHiLODs",
+      "color": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ],
+      "smoothness": 0.5,
+      "alpha": 0.0,
+      "hair": false,
+      "baseTexture": "",
+      "normalTexture": "",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Skin_Baked_LOD3",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Head_BC_Albedo.png",
+      "normalTexture": "Textures/T_Head_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Skin_Baked_LOD4",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Head_BC_Albedo.png",
+      "normalTexture": "Textures/T_Head_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "MI_Face_Skin_Baked_LOD5to7",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.5200000107288361,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/T_Head_BC_Albedo.png",
+      "normalTexture": "Textures/T_Head_N_NormalGL.png",
+      "normalScale": 0.6
+    },
+    {
+      "name": "Material_006_-32262",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/pants_d_Albedo.png",
+      "normalTexture": "",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_007_-32264",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/belt_d_Albedo.png",
+      "normalTexture": "Textures/belt_n_7_NormalGL.png",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_010_-32266",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/ankle_d_Albedo.png",
+      "normalTexture": "Textures/ankle_n_4_NormalGL.png",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_005_-32268",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/cuffs_d_Albedo.png",
+      "normalTexture": "Textures/cuffs_n_19_NormalGL.png",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_003_-32270",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/buttons_d_Albedo.png",
+      "normalTexture": "",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_002_-32272",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/shirt_d_Albedo.png",
+      "normalTexture": "Textures/shirt_n_22_NormalGL.png",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_001_-32274",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/jacket_d_Albedo.png",
+      "normalTexture": "Textures/jacket_n_16_NormalGL.png",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_003_-32276",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/buttons_d_Albedo.png",
+      "normalTexture": "",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_003_-32278",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.30000001192092896,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/buttons_d_Albedo.png",
+      "normalTexture": "",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Material_009_-32280",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "smoothness": 0.7299999892711639,
+      "alpha": 1.0,
+      "hair": false,
+      "baseTexture": "Textures/shoes_d_Albedo.png",
+      "normalTexture": "Textures/shoes_n_1_NormalGL.png",
+      "normalScale": 0.45
+    },
+    {
+      "name": "Hair_S_Casual_DetailedCards",
+      "color": [
+        0.01600000075995922,
+        0.00800000037997961,
+        0.004000000189989805,
+        1.0
+      ],
+      "smoothness": 0.3500000238418579,
+      "alpha": 1.0,
+      "hair": true,
+      "baseTexture": "Textures/Hair_S_Casual_DetailedCards_AlbedoCoverage.png",
+      "normalTexture": "",
+      "normalScale": 0.45
+    }
+  ]
+}

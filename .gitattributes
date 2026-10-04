@@ -1,0 +1,42 @@
+* text=auto
+
+# Keep scripts and Unity YAML mergeable.
+*.cs text diff=csharp eol=lf
+*.py text diff=python eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.meta text eol=lf
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.mat text merge=unityyamlmerge eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+
+# The four interviewer clips are 360-390 MB each and require Git LFS.
+*.anim filter=lfs diff=lfs merge=lfs -text
+
+# Large/binary Unity assets are safer in Git LFS.
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+
+# Large TextMesh Pro font atlases stored as Unity .asset files.
+unity项目/Assets/_Project/Fonts/*.asset filter=lfs diff=lfs merge=lfs -text
+unity项目/Assets/_Project/Scripts/Managers/*.asset filter=lfs diff=lfs merge=lfs -text

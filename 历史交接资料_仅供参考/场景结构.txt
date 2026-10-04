@@ -1,0 +1,18 @@
+当前主要场景：
+MainScene_AIInterview_VoiceTest_v1
+
+
+
+
+Hierarchy：
+
+Model
+EventSystem
+Manager
+InterviewTestCanvas
+ResultUI_New
+XR Device Simulator
+XR Origin (XR Rig)
+Light
+VoiceManager
+InterviewerSpeech
